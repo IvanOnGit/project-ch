@@ -10,17 +10,5 @@
     "name": "Penthouse",
     "room": "1 B",
     "resverd": true
-  },
-  {
-    "id": 3,
-    "name": "Penthouse",
-    "room": "1 D",
-    "resverd": true
-  },
-  {
-    "id": 4,
-    "name": "COSO",
-    "room": "1 C",
-    "resverd": true
   }
 ]

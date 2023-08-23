@@ -1,107 +1,162 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-  
+
 header {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
   
 nav {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
   
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
 }
   
 nav li {
-    padding-right: 20px;
+  padding-right: 20px;
 }
   
 nav li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
   
 nav li a:hover {
-    color: grey;
+  color: grey;
 }
   
 .homeSection {
-    background-image: url(../img/HotelHome.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: calc(100vh - 60px);
-    margin-top: 60px;
+  background-image: url(../img/HotelHome.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 60px);
+  margin-top: 60px;
 }
   
 .reservasSection {
-    text-align: center;
+  text-align: center;
 }
 
 .textAndButtonReservas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .imageContainer {
-    flex: 1;
-    margin-right: 20px;
+  flex: 1;
+  margin-right: 20px;
 }
 
 .imageContainer img {
-    max-width: 700px;
-    height: 500px;
+  max-width: 700px;
+  height: 500px;
 }
 
 .textContainer {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .textContainer p {
-    max-width: 600px; 
-    margin-bottom: 20px; 
+  max-width: 600px; 
+  margin-bottom: 20px; 
 }
 
 .textContainer button {
-    padding: 10px 20px;
-    border-radius: 20px; 
-    align-self: center;
-    transition: background-color 0.3s; 
+  padding: 10px 20px;
+  border-radius: 20px; 
+  align-self: center;
+  transition: background-color 0.3s; 
 }
 
 .textContainer button:hover {
-    background-color: #ddd; 
-    cursor: pointer; 
-  }
+  background-color: #ddd; 
+  cursor: pointer; 
+}
 
-.pindonga {
-    border: 1px solid black;
-    width: 50%;
-    padding: 30px;
+.reservationsContainer {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.reservationCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+  width: 90%;
+  padding: 30px;
+}
+
+.reservationImage {
+  margin-right: 20px;
+  width: 500px;
+  height: 325px;
+}
+
+.reservationImageContainer {
+  flex: 1;
+}
+
+.reservationText {
+  text-align: left;
+}
+
+.reserveButton {
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.reserveButton:hover {
+	background-color:#dfdfdf;
+}
+.reserveButton:active {
+	position:relative;
+	top: 5px;
+}
+
+.reserverdOverlay {
+  display: none;
+  font-size: 3rem;
+  position: absolute; 
+  background-color: #f0f0f0a9;
+  width: 100%;
+  height: 100%
 }

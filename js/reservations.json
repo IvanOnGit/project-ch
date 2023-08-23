@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "name": "Precidential Penthouse",
+    "name": "Presidential Penthouse",
     "room": "1 A",
-    "resverd": false
+    "reserved": false
   },
   {
     "id": 2,
-    "name": "Penthouse",
+    "name": "Suite",
     "room": "1 B",
-    "resverd": true
+    "reserved": false
   }
 ]
